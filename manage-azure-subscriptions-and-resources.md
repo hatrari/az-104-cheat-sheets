@@ -85,7 +85,7 @@ There is a few things we can do with alerts and metrics. We can:
 * Tags let you mark resources with name value pairs to categorize and view them across resource groups and within the portal, across subscriptions.
 * The tag name can have a __maximum of 512__ characters and is __NOT__ case sensitive.
 * Tag names created by Azure have prefixes of Microsoft, Azure, or Windows, and you can't create tags with one of those prefixes.
-* The main reasons why we're going to use tags is for __access controls (IAM) __, __compliance issues__, __global governance__, or for __automation purposes__.
+* The main reasons why we're going to use tags is for __access controls (IAM)__, __compliance issues__, __global governance__, or for __automation purposes__.
 * (Get-AzResource -ResourceName name).Tags
 * az group show -n name --query tags
 
